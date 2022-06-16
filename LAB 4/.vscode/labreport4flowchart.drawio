@@ -1,0 +1,183 @@
+<mxfile host="65bd71144e">
+    <diagram id="j8vrejtX-mLYg9Sbl6Ju" name="Page-1">
+        <mxGraphModel dx="649" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="float sphereVolume(float r)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="57" y="71" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="nPIF80EDZyFLek8TistR-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="float result;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="162" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-16" target="nPIF80EDZyFLek8TistR-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-16" value="result = (4 * pi * (r * r * r)) / 3;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="261" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-18" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="68" y="360" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-22" target="nPIF80EDZyFLek8TistR-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-22" value="float sphereSurface(float r)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="252" y="71" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-24" target="nPIF80EDZyFLek8TistR-26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-24" value="float result;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="162" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-26" target="nPIF80EDZyFLek8TistR-27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-26" value="result = 4 * pi * (r * r);" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="261" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-27" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="263" y="360" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-29" target="nPIF80EDZyFLek8TistR-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-29" value="float cylinderVolume&lt;br&gt;(float r, h)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="432.5" y="71" width="155" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-31" target="nPIF80EDZyFLek8TistR-33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-31" value="float result;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="162" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-33" target="nPIF80EDZyFLek8TistR-34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-33" value="result = pi * (r * r) * h;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="261" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-34" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="448" y="360" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-35" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-36" target="nPIF80EDZyFLek8TistR-38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-36" value="float cylinderSurface&lt;br&gt;(float r, h)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="622" y="71" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-38" target="nPIF80EDZyFLek8TistR-40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-38" value="float result;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="635" y="162" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-39" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-40" target="nPIF80EDZyFLek8TistR-41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-40" value="result = ((2 * pi) * r * h) + ((2 * pi) * (r * r));" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="261" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-41" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="633" y="360" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-42" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-43" target="nPIF80EDZyFLek8TistR-45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-43" value="float coneVolume(float r, h)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="482" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-44" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-45" target="nPIF80EDZyFLek8TistR-47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-45" value="float result;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="293" y="573" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-47" target="nPIF80EDZyFLek8TistR-48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-47" value="result = (pi * (r * r)) * h / 3;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="268" y="672" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-48" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="291" y="771" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-50" target="nPIF80EDZyFLek8TistR-52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-50" value="float coneSurface(float r, h)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="475.5" y="482" width="161" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-51" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-52" target="nPIF80EDZyFLek8TistR-54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-52" value="float result, sqr;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="496" y="573" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-54" target="nPIF80EDZyFLek8TistR-56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-54" value="sqr = sqrt((r * r) + (h * h));" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="471" y="672" width="169" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-55" value="return result" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="493" y="882" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-58" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="nPIF80EDZyFLek8TistR-56" target="nPIF80EDZyFLek8TistR-55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPIF80EDZyFLek8TistR-56" value="result = (pi * r) * (r + sqr);" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="471" y="774" width="169" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="2TQ7Zquq_JeFGP9VUrxB" name="Page-2">
+        <mxGraphModel dx="552" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-0"/>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-1" parent="Jd-IYVSt-cnjEp1OFA6V-0"/>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-2" value="" style="edgeStyle=none;html=1;" edge="1" parent="Jd-IYVSt-cnjEp1OFA6V-1" source="Jd-IYVSt-cnjEp1OFA6V-3" target="Jd-IYVSt-cnjEp1OFA6V-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-3" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="375" y="67" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-4" value="" style="edgeStyle=none;html=1;" edge="1" parent="Jd-IYVSt-cnjEp1OFA6V-1" source="Jd-IYVSt-cnjEp1OFA6V-5" target="Jd-IYVSt-cnjEp1OFA6V-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-5" value="float r, h" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="365" y="159" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-6" value="" style="edgeStyle=none;html=1;" edge="1" parent="Jd-IYVSt-cnjEp1OFA6V-1" source="Jd-IYVSt-cnjEp1OFA6V-7" target="Jd-IYVSt-cnjEp1OFA6V-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-7" value="print &quot;Enter your Radius and Height Value&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="332" y="256" width="186" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="Jd-IYVSt-cnjEp1OFA6V-1" source="Jd-IYVSt-cnjEp1OFA6V-9" target="Jd-IYVSt-cnjEp1OFA6V-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-9" value="input (&quot;%f %f&quot;, &amp;amp;r, &amp;amp;h)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="332" y="353" width="186" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-10" value="" style="edgeStyle=none;html=1;" edge="1" parent="Jd-IYVSt-cnjEp1OFA6V-1" source="Jd-IYVSt-cnjEp1OFA6V-11" target="Jd-IYVSt-cnjEp1OFA6V-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-11" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(%.3f&quot;, sphereVolume(r));&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf( %.3f&quot;, sphereSurface(r));&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf( %.3f&quot;, cylinderVolume(r, h));&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(%.3f&quot;, cylinderSurface(r, h));&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(%.3f&quot;, coneVolume(r, h));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(%.3f&quot;, coneSurface(r, h));&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="311" y="440" width="227" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jd-IYVSt-cnjEp1OFA6V-12" value="STOP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="Jd-IYVSt-cnjEp1OFA6V-1">
+                    <mxGeometry x="375" y="589" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

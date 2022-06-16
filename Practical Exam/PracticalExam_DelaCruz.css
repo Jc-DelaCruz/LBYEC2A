@@ -1,0 +1,56 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.bg {  
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+body{
+    background-color: #121212;
+}
+
+.main, .description {
+  margin: 5px;
+  max-width: 80%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p{
+  font-size: large;
+  align-content: center;
+
+}
+
+.main{
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-bottom: 2px;
+}
+
+.links {
+  list-style: none;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+  color: aquamarine;
+  font-weight: bold;
+}

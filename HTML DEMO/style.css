@@ -1,0 +1,23 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h2{
+    color: palevioletred;
+    size: 50px;
+    font-family:'Courier New';
+}
+
+                                /* comment command */
+    
+
+#mytitle{
+    text-align: center;
+    color:palevioletred;
+    font-family: courier new;
+    size: 60px;
+}
+.mycenter{
+    text-align: center;
+    color: palevioletred;
+}
