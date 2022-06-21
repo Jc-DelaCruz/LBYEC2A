@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Section */
+#header{
+    background-color: #121212;
+}
+
+#header h1:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+#header h1:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+#header h1:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+#header h2:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+
+#header h1{
+    display: block;
+    width: fit-content;
+    font-size: 5rem;
+    position: relative;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1.5s;
+}
+
+#header h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    color: white;
+}
+#header h2{
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    position: relative;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1.5s;
+}
+
+#header h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    color: white;
+}
+
+
+
+#header .cta:hover{
+    color: white;
+    background-color: grey;
+}
+
+/* End Header Section */
+
+/* Key Frame */
+
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+
+}
+/* Key Frame */
+
+
+/* About  */
+#about{
+    background-color: #3a3a3a;
+}
+#about h1,h2,h3{
+    color: white;
+}
+
+#about .about{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#about .col-right{
+    width: 75%;
+}
+
+#about .col-right h1{
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#about .col-right h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#about .col-right p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#about .col-left .pic1 img{
+    position: relative;
+
+}
+/* End About */
+
+/* feature  */
+#login{
+    background-color: #121212;
+}
+#login h1, h2, h3{
+    color: white;
+}
+
+#login .login{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#login .col-right {
+    width: 75%;
+}
+
+#login .col-right h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#login .col-right h2{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#login .col-right p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#login .col-left1 .pic2 img{
+    position: relative;
+
+}
+#mainmenu{
+    background-color: #3a3a3a;
+}
+#mainmenu h1, h2, h3{
+    color: white;
+}
+
+
+#mainmenu .mainmenu{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#mainmenu .col-right {
+    width: 75%;
+}
+
+#mainmenu .col-right h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#mainmenu .col-right h2{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#mainmenu .col-right p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#mainmenu .col-left1 .pic2 img{
+    position: relative;
+
+}
+
+#gpa {
+    background-color: #121212;
+}
+#gpa h1, h2, h3{
+    color: white;
+}
+
+#gpa .gpa{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#gpa .col-right {
+    width: 75%;
+}
+
+#gpa .col-right h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#gpa .col-right h2{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+#gpa .col-right p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#gpa .col-left1 .pic2 img{
+    position: relative;
+
+}
+
+#flowchart {
+    background-color: #3a3a3a;
+}
+#flowchart h1, h2, h3{
+    color: white;
+}
+
+#flowchart .flowchart{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#flowchart .col-right {
+    width: 75%;
+}
+
+#flowchart .col-right h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#flowchart .col-right h2{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+#flowchart .col-right p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#flowchart .col-left1 .pic2 img{
+    position: relative;
+
+}
+
+#faq {
+    background-color: #121212;
+}
+#faq h1, h2, h3{
+    color: white;
+}
+
+#faq .faq{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+#faq .col-right {
+    width: 75%;
+}
+
+#faq .col-right h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+#faq .col-right h2{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+#faq .col-right p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-self: auto;
+    color: white;
+}
+
+#faq .col-left1 .pic2 img{
+    position: relative;
+
+}
